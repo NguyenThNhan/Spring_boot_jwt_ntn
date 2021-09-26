@@ -4,7 +4,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.security.Permission;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,7 +11,7 @@ import java.util.Set;
 @Table()
 @Getter
 @Setter
-public class Role extends BaseEntity{
+public class Role extends BaseEntity {
     private String roleName;
     private String roleKey;
 

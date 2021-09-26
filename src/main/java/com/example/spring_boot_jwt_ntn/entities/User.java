@@ -9,7 +9,7 @@ import java.util.Set;
 @Table
 @Getter
 @Setter
-public class User extends BaseEntity{
+public class User extends BaseEntity {
     private String username;
     private String password;
 
